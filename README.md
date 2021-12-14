@@ -17,7 +17,7 @@ Github Recommendation:
 - 😄 Pronouns: Growth, DevOps, Cloud Native, CLoud-Edge Computing
 - ⚡ Fun fact: Python, JavaScript Full Stack, Golang, Rust, C/C++
 
-Actually here is a guy who is(or has):
+Actually here is a guy who:
 
 - 🎸 Familiar with common technology stack software development lifecycle
 - 🥁 Long-term in-depth study of the operating system, Linux operation and maintenance, software architecture and other basic knowledge
