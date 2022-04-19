@@ -14,11 +14,8 @@ Here are some ideas to get you started:
 - 📫 How to reach me: alanthssss@gmail.com
 -->
 
-
-- 😄 Pronouns: Growth, Lean IT, Agile
-- ⚡ Fun fact: OOP, DevOps, Cloud Native, CLoud-Edge Computing, IoT
-- 
+- 🎺 Growth, Lean IT, Agile
 - 🎸 Software development lifecycle of C/C++、Golang、Python、Java、JS 
-- 🥁 Operating system, software architecture and other computer science
+- 🥁 OOP, DevOps, Cloud Native, CLoud-Edge Computing, IoT
 - 🎹 Tool selection, maintenance and customization
-- 🎺 Documents and reports: Markdown, Wiki and PPT
+
