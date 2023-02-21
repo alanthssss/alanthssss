@@ -8,14 +8,13 @@ Here are some ideas to get you started:
 <!-- 
 - 🔭 I’m currently working on DevOps
 - 🌱 I’m currently learning Cloud-Edge Computing
-- 👯 I’m looking to collaborate on Cloud Native 
+- 👯 I’m looking to collaborate on Cloud Native
 - 🤔 I’m looking for help with Open Source
 - 💬 Ask me about DevOps, CLoud Native, OOP 
 - 📫 How to reach me: alanthssss@gmail.com
 -->
 
-- 🎺 Growth, Lean IT, Agile
-- 🎸 Software development lifecycle of C/C++、Golang、Python、Java、JS 
-- 🥁 OOP, DevOps, Cloud Native, CLoud-Edge Computing, IoT
-- 🎹 Tool selection, maintenance and customization
-
+- ~~🎺 Growth, Lean IT, Agile
+- ~~🎸 Software development lifecycle of C/C++、Golang、Python、Java、JS 
+- ~~🥁 OOP, DevOps, Cloud Native, CLoud-Edge Computing, IoT
+- ~~🎹 Tool selection, maintenance and customization
