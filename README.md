@@ -20,5 +20,5 @@ Here are some ideas to get you started:
 - ~~🎹 Tool selection, maintenance and customization~~
 
 - Vintage Motocycle Rider with a 250cc Mutt Motocycle.
-- East Asia Traditional Music Player in String Instrument.
-- Reader of _Zen and the Art of Motorcycle Maintenance_
+- East Asia Traditional Music Player in String Instrument Named Sanxian.
+- Reader of _Zen and the Art of Motorcycle Maintenance_.
