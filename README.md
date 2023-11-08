@@ -19,6 +19,6 @@ Here are some ideas to get you started:
 - ~~🥁 OOP, DevOps, Cloud Native, CLoud-Edge Computing, IoT~~
 - ~~🎹 Tool selection, maintenance and customization~~
 
-- Vintage Motocycle Rider with a 250cc Mutt Motocycle.
-- East Asia Traditional Music Player in String Instrument Named Sanxian.
+- Rider with a 250cc Mutt Style Motocycle.
+- Player in String Instrument Named Sanxian.
 - Reader of _Zen and the Art of Motorcycle Maintenance_.
