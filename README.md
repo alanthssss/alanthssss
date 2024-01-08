@@ -12,13 +12,12 @@ Here are some ideas to get you started:
 - 🤔 I’m looking for help with Open Source
 - 💬 Ask me about DevOps, CLoud Native, OOP 
 - 📫 How to reach me: alanthssss@gmail.com
--->
-
 - ~~🎺 Growth, Lean IT, Agile~~
 - ~~🎸 Software development lifecycle of C/C++、Golang、Python、Java、JS~~
 - ~~🥁 OOP, DevOps, Cloud Native, CLoud-Edge Computing, IoT~~
 - ~~🎹 Tool selection, maintenance and customization~~
+-->
 
-- Rider with a 250cc Street Scrambler Motocycle.
 - Player in String Instrument Named Sanxian.
+- Rider with a 250cc Street Scrambler Motocycle.
 - Reader of _Zen and the Art of Motorcycle Maintenance_.
