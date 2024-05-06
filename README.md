@@ -18,6 +18,6 @@ Here are some ideas to get you started:
 - ~~🎹 Tool selection, maintenance and customization~~
 -->
 
-- Player in String Instrument Named Sanxian.
-- Rider with a 250cc Street Scrambler Motocycle.
+- Guitar Player of Funky Music.
+- Rider of 250cc Street Scrambler Motocycle.
 - Reader of _Zen and the Art of Motorcycle Maintenance_.
