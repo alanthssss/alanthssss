@@ -18,4 +18,8 @@ Here are some ideas to get you started:
 - ~~🎹 Tool selection, maintenance and customization~~
 -->
 
-- Reader of _Zen and the Art of Motorcycle Maintenance_.
+- 🏍️  Reader of *Zen and the Art of Motorcycle Maintenance*  
+- 💻  DevOps engineer, open-source enthusiast, passionate about growth, efficiency, innovation, and technology  
+- 🤝  Open to collaboration — feel free to @me for DevOps challenges, co-building DevOps tools, or contributing to open-source projects  
+- 🐶  Best friend of DouDou, my lovely Schnauzer  
+- 🌍  Looking for flexible remote opportunities — so I can spend more time with DouDou every day
