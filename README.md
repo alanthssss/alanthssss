@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm Alan
 
-![image](https://github.com/user-attachments/assets/eeeff373-8c88-4d84-b43b-69724919d911)
+![image](https://github.com/user-attachments/assets/b972e7fb-f75a-4c74-8e5a-e11dbb7a3517)
 
 🏍️  Reader of *Zen and the Art of Motorcycle Maintenance*  
 💻  DevOps engineer | Open-source enthusiast | Focused on growth, efficiency, innovation & elegant tech  
