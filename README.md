@@ -1,5 +1,7 @@
 # 👋 Hi there, I'm Alan
 
+![image](https://github.com/user-attachments/assets/577ea37b-8c58-422f-9995-e13420fd37cc)
+
 🏍️  Reader of *Zen and the Art of Motorcycle Maintenance*  
 💻  DevOps engineer | Open-source enthusiast | Focused on growth, efficiency, innovation & elegant tech  
 🤝  Open to collaboration — feel free to @me for DevOps challenges, tool co-creation, or open-source contributions  
