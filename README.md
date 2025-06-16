@@ -26,7 +26,7 @@
 
 - 📧 Email: `alan.niu@keyscome.io`  
 - 🐙 GitHub: [@alanthssss](https://github.com/alanthssss)  
-- 🛠️ Blog / Wiki / Notes: [keyscome.io](keyscome.io)
+- 🛠️ Blog / Wiki / Notes: [alanthssss.github.io](https://alanthssss.github.io/)
 ---
 
 > _"The place to improve the world is first in one's own heart and head and hands."_  
