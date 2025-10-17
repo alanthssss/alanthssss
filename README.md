@@ -6,7 +6,7 @@
 💻  DevOps engineer | Open-source enthusiast | Focused on growth, efficiency, innovation & elegant tech  
 🤝  Open to collaboration — feel free to @me for DevOps challenges, tool co-creation, or open-source contributions  
 🐶  Best friend of DouDou, my loyal Schnauzer  
-🌍  Looking for remote-friendly roles — so I can spend more time with DouDou while building awesome stuff  
+
 
 ---
 
