@@ -31,10 +31,12 @@
 <!-- PINNED-REPOS:START -->
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [zktool](https://github.com/alanthssss/zktool) | export\import\update zookeeper data tool built by golang | Go |
-| [pw2048](https://github.com/alanthssss/pw2048) | Automate the 2048 game using Playwright and collect fancy data visualizations of each algorithm's performance. | Python |
-| [ai-arcade-2048](https://github.com/alanthssss/ai-arcade-2048) | AI agents (DQN & others) learning to play 2048 | Python |
-| [snail](https://github.com/alanthssss/snail) | Full-stack dashboard (Next.js) for managing & monitoring Java service lifecycle | TypeScript |
+| [alanthssss/pw2048](https://github.com/alanthssss/pw2048) | Automate the 2048 game using Playwright and collect fancy data visualizations of each algorithm's performance. | Python |
+| [keyscome/petal](https://github.com/keyscome/petal) | lightweight distributed infra ops | Go |
+| [keyscome/pulse](https://github.com/keyscome/pulse) | A lightweight, cross-platform CLI tool for monitoring network service connectivity | Go |
+| [alanthssss/zktool](https://github.com/alanthssss/zktool) | export\import\update zookeeper data tool built by golang | Go |
+| [jina-ai/serve](https://github.com/jina-ai/serve) | Build multimodal AI applications with cloud-native stack | Python |
+| [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) | A powerful little TUI framework 🏗 | Go |
 <!-- PINNED-REPOS:END -->
 
 ---

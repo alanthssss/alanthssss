@@ -83,6 +83,7 @@ PINNED_QUERY = """
       nodes {
         ... on Repository {
           name
+          nameWithOwner
           description
           url
           primaryLanguage { name }
@@ -131,13 +132,13 @@ def render_pinned_table(repos: list[dict]) -> str:
         "|---------|-------------|-------|",
     ]
     for repo in repos:
-        name = repo.get("name", "")
-        url = repo.get("url", f"https://github.com/{GITHUB_USERNAME}/{name}")
+        name_with_owner = repo.get("nameWithOwner", "")
+        url = repo.get("url") or f"https://github.com/{name_with_owner}"
         desc = escape_md_pipes(repo.get("description") or "")
         lang = language_badge(
             (repo.get("primaryLanguage") or {}).get("name")
         )
-        lines.append(f"| [{name}]({url}) | {desc} | {lang} |")
+        lines.append(f"| [{name_with_owner}]({url}) | {desc} | {lang} |")
     return "\n".join(lines) + "\n"
 
 
