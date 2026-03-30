@@ -2,8 +2,9 @@
 """
 update_readme.py
 
-Fetches recent public repositories for the GitHub user 'alanthssss', then
-updates the README.md section delimited by HTML comment markers:
+Fetches recent public repositories from the GitHub user 'alanthssss' personal
+account AND from every organization they publicly belong to, then updates the
+README.md section delimited by HTML comment markers:
 
   <!-- RECENT-PROJECTS:START --> ... <!-- RECENT-PROJECTS:END -->
 
@@ -59,14 +60,44 @@ def rest_get(token: str, path: str, params: dict | None = None) -> list | dict:
 # Data fetching
 # ---------------------------------------------------------------------------
 
+def fetch_user_orgs(token: str) -> list[str]:
+    """Return login names of organisations the user publicly belongs to."""
+    orgs = rest_get(token, f"/users/{GITHUB_USERNAME}/orgs")
+    return [org["login"] for org in orgs]
+
+
 def fetch_recent_repos(token: str) -> list[dict]:
-    repos = rest_get(
+    """Return up to MAX_RECENT most-recently-updated public repos across the
+    user's personal account and every org they publicly belong to."""
+
+    # Personal repos (owner type only, large page to have enough candidates)
+    personal: list[dict] = rest_get(
         token,
         f"/users/{GITHUB_USERNAME}/repos",
-        params={"sort": "updated", "direction": "desc", "per_page": MAX_RECENT, "type": "owner"},
+        params={"sort": "updated", "direction": "desc", "per_page": 50, "type": "owner"},
     )
-    # Exclude the profile README repo itself
-    return [r for r in repos if r["name"] != GITHUB_USERNAME][:MAX_RECENT]
+
+    # Repos from each publicly-visible organisation membership
+    org_repos: list[dict] = []
+    for org in fetch_user_orgs(token):
+        try:
+            repos = rest_get(
+                token,
+                f"/orgs/{org}/repos",
+                params={"type": "public", "sort": "updated", "direction": "desc", "per_page": MAX_RECENT},
+            )
+            org_repos.extend(repos)
+        except Exception as exc:
+            print(f"WARNING: could not fetch repos for org '{org}': {exc}", file=sys.stderr)
+
+    # Merge, deduplicate by full_name, sort newest-first, drop the profile repo
+    all_repos: dict[str, dict] = {r["full_name"]: r for r in personal + org_repos}
+    sorted_repos = sorted(
+        all_repos.values(),
+        key=lambda r: r.get("updated_at", ""),
+        reverse=True,
+    )
+    return [r for r in sorted_repos if r["name"] != GITHUB_USERNAME][:MAX_RECENT]
 
 
 # ---------------------------------------------------------------------------
@@ -90,8 +121,8 @@ def render_recent_table(repos: list[dict]) -> str:
         "|---------|-------------|-------|---------|",
     ]
     for repo in repos:
-        name = repo.get("name", "")
-        url = repo.get("html_url", f"https://github.com/{GITHUB_USERNAME}/{name}")
+        full_name = repo.get("full_name", repo.get("name", ""))
+        url = repo.get("html_url", f"https://github.com/{full_name}")
         desc = escape_md_pipes(repo.get("description") or "")
         lang = language_badge(repo.get("language"))
         updated_raw = repo.get("updated_at", "")
@@ -99,7 +130,7 @@ def render_recent_table(repos: list[dict]) -> str:
             updated = datetime.fromisoformat(updated_raw.replace("Z", "+00:00")).strftime("%Y-%m-%d")
         except (ValueError, AttributeError):
             updated = updated_raw[:10] if updated_raw else "—"
-        lines.append(f"| [{name}]({url}) | {desc} | {lang} | {updated} |")
+        lines.append(f"| [{full_name}]({url}) | {desc} | {lang} | {updated} |")
     return "\n".join(lines) + "\n"
 
 
@@ -148,7 +179,7 @@ def update_readme(recent: list[dict]) -> bool:
 
 def main() -> None:
     token = get_token()
-    print(f"Fetching {MAX_RECENT} most-recently-updated repos for @{GITHUB_USERNAME}...")
+    print(f"Fetching {MAX_RECENT} most-recently-updated repos for @{GITHUB_USERNAME} (personal + org)...")
     recent = fetch_recent_repos(token)
     print(f"  Found {len(recent)} repo(s).")
 
