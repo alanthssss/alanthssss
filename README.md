@@ -44,7 +44,8 @@
 
 ## 📫 Let's connect
 
-- 📧 Email: `alanthssss@gmail.com`  
+- 📧 Email: `alanthssss@gmail.com`
+- 🛰️ Wechat: `alanthssss`
 - 🐙 GitHub: [@alanthssss](https://github.com/alanthssss)  
 - 🛠️ Blog / Wiki / Notes: [alanthssss.github.io](https://alanthssss.github.io/)
 
