@@ -44,7 +44,7 @@
 
 ## 📫 Let's connect
 
-- 📧 Email: `alan.niu@keyscome.io`  
+- 📧 Email: `alanthssss@gmail.com`  
 - 🐙 GitHub: [@alanthssss](https://github.com/alanthssss)  
 - 🛠️ Blog / Wiki / Notes: [alanthssss.github.io](https://alanthssss.github.io/)
 
