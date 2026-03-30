@@ -62,13 +62,6 @@
 
 ---
 
-![image](https://github.com/user-attachments/assets/b972e7fb-f75a-4c74-8e5a-e11dbb7a3517)
-
-🏍️  Reader of *Zen and the Art of Motorcycle Maintenance*  
-💻  DevOps engineer | AI/ML explorer | Builder of tools, bots & elegant systems  
-🤝  Open to collaboration — feel free to @me for DevOps challenges, tool co-creation, or open-source contributions  
-🐶  Best friend of DouDou, my loyal Schnauzer  
-
 ## 📫 Let's connect
 
 - 📧 Email: `alanthssss@gmail.com`
@@ -80,3 +73,10 @@
 
 > _"The place to improve the world is first in one's own heart and head and hands."_  
 > — Robert M. Pirsig, *Zen and the Art of Motorcycle Maintenance*
+
+![image](https://github.com/user-attachments/assets/b972e7fb-f75a-4c74-8e5a-e11dbb7a3517)
+
+🏍️  Reader of *Zen and the Art of Motorcycle Maintenance*  
+💻  DevOps engineer | AI/ML explorer | Builder of tools, bots & elegant systems  
+🤝  Open to collaboration — feel free to @me for DevOps challenges, tool co-creation, or open-source contributions  
+🐶  Best friend of DouDou, my loyal Schnauzer  
