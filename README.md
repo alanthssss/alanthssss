@@ -34,9 +34,10 @@
 | [alanthssss/pw2048](https://github.com/alanthssss/pw2048) | Automate the 2048 game using Playwright and collect fancy data visualizations of each algorithm's performance. | Python |
 | [keyscome/petal](https://github.com/keyscome/petal) | lightweight distributed infra ops | Go |
 | [keyscome/pulse](https://github.com/keyscome/pulse) | A lightweight, cross-platform CLI tool for monitoring network service connectivity | Go |
-| [alanthssss/zktool](https://github.com/alanthssss/zktool) | export\import\update zookeeper data tool built by golang | Go |
-| [jina-ai/serve](https://github.com/jina-ai/serve) | Build multimodal AI applications with cloud-native stack | Python |
+| [alanthssss/zktool](https://github.com/alanthssss/zktool) | export\import\update zookeeper data tool built by golang  | Go |
+| [jina-ai/serve](https://github.com/jina-ai/serve) | ☁️ Build multimodal AI applications with cloud-native stack | Python |
 | [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) | A powerful little TUI framework 🏗 | Go |
+
 <!-- PINNED-REPOS:END -->
 
 ---
@@ -46,12 +47,12 @@
 <!-- RECENT-PROJECTS:START -->
 | Project | Description | Stack | Updated |
 |---------|-------------|-------|---------|
-| [zktool](https://github.com/alanthssss/zktool) | export\import\update zookeeper data tool built by golang | Go | 2026-03-17 |
+| [zktool](https://github.com/alanthssss/zktool) | export\import\update zookeeper data tool built by golang  | Go | 2026-03-17 |
 | [pw2048](https://github.com/alanthssss/pw2048) | Automate the 2048 game using Playwright and collect fancy data visualizations of each algorithm's performance. | Python | 2026-03-10 |
-| [ai-arcade-2048](https://github.com/alanthssss/ai-arcade-2048) | AI agents (DQN & others) learning to play 2048 | Python | 2026-03-08 |
-| [2048bot](https://github.com/alanthssss/2048bot) | Browser-based 2048 bot | JavaScript | 2025-12-12 |
-| [pong](https://github.com/alanthssss/pong) | Classic Pong game | JavaScript | 2025-07-11 |
-| [snail](https://github.com/alanthssss/snail) | Full-stack dashboard (Next.js) for managing & monitoring Java service lifecycle | TypeScript | 2024-10-23 |
+| [ai-arcade-2048](https://github.com/alanthssss/ai-arcade-2048) |  | Python | 2026-03-08 |
+| [2048bot](https://github.com/alanthssss/2048bot) |  | JavaScript | 2025-12-12 |
+| [jina](https://github.com/alanthssss/jina) | ☁️ Build multimodal AI applications with cloud-native stack | Python | 2025-11-18 |
+
 <!-- RECENT-PROJECTS:END -->
 
 ---
