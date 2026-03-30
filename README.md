@@ -68,9 +68,10 @@
 - 📧 Email: `alanthssss@gmail.com`
 - 🐙 GitHub: [@alanthssss](https://github.com/alanthssss)  
 - 🛠️ Blog / Wiki / Notes: [alanthssss.github.io](https://alanthssss.github.io/)
--->
+
 
 ---
+-->
 
 > _"The place to improve the world is first in one's own heart and head and hands."_  
 > — Robert M. Pirsig, *Zen and the Art of Motorcycle Maintenance*
