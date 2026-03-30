@@ -1,6 +1,6 @@
-# 👋 Hi there, I'm Alan
+# 👋 Hi there
 
-## 🧰 Tech Stack
+<!-- ## 🧰 Tech Stack -->
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
@@ -17,7 +17,7 @@
 
 ---
 
-## 🚀 Recent Projects
+<!-- ## 🚀 Recent Projects -->
 
 <!-- RECENT-PROJECTS:START -->
 <table width="100%">
@@ -63,12 +63,12 @@
 
 ---
 
-## 📫 Let's connect
-
+<!-- ## 📫 Let's connect -->
+<!--
 - 📧 Email: `alanthssss@gmail.com`
-- 🛰️ Wechat: `alanthssss`
 - 🐙 GitHub: [@alanthssss](https://github.com/alanthssss)  
 - 🛠️ Blog / Wiki / Notes: [alanthssss.github.io](https://alanthssss.github.io/)
+-->
 
 ---
 
@@ -81,3 +81,4 @@
 💻  DevOps engineer | AI/ML explorer | Builder of tools, bots & elegant systems  
 🤝  Open to collaboration — feel free to @me for DevOps challenges, tool co-creation, or open-source contributions  
 🐶  Best friend of DouDou, my loyal Schnauzer  
+🛰️  Wechat: `alanthssss`
