@@ -47,10 +47,10 @@
 <!-- RECENT-PROJECTS:START -->
 | Project | Description | Stack | Updated |
 |---------|-------------|-------|---------|
+| [2048bot](https://github.com/alanthssss/2048bot) | A Playwright-powered bot that automatically plays the 2048 game using a greedy heuristic strategy. | JavaScript | 2026-03-30 |
+| [ai-arcade-2048](https://github.com/alanthssss/ai-arcade-2048) | A minimal project for experimenting with "AI playing 2048". | Python | 2026-03-30 |
 | [zktool](https://github.com/alanthssss/zktool) | export\import\update zookeeper data tool built by golang  | Go | 2026-03-17 |
 | [pw2048](https://github.com/alanthssss/pw2048) | Automate the 2048 game using Playwright and collect fancy data visualizations of each algorithm's performance. | Python | 2026-03-10 |
-| [ai-arcade-2048](https://github.com/alanthssss/ai-arcade-2048) |  | Python | 2026-03-08 |
-| [2048bot](https://github.com/alanthssss/2048bot) |  | JavaScript | 2025-12-12 |
 | [jina](https://github.com/alanthssss/jina) | ☁️ Build multimodal AI applications with cloud-native stack | Python | 2025-11-18 |
 
 <!-- RECENT-PROJECTS:END -->
