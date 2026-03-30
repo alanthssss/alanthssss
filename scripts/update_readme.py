@@ -172,7 +172,7 @@ def replace_section(content: str, start_marker: str, end_marker: str, new_body: 
         rf"({re.escape(start_marker)}\n).*?(\n{re.escape(end_marker)})",
         re.DOTALL,
     )
-    replacement = rf"\g<1>{new_body}\g<2>"
+    replacement = lambda m: m.group(1) + new_body + m.group(2)
     result, count = pattern.subn(replacement, content)
     if count == 0:
         print(f"WARNING: marker '{start_marker}' not found in README.", file=sys.stderr)
