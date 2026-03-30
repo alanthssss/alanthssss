@@ -101,37 +101,95 @@ def fetch_recent_repos(token: str) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
-# Markdown rendering
+# Rendering helpers
 # ---------------------------------------------------------------------------
 
-def language_badge(lang: str | None) -> str:
-    return lang if lang else "—"
+# Maps language name -> (hex-color, shields.io logo slug, logo text color)
+_LANG_CONFIG: dict[str, tuple[str, str, str]] = {
+    "JavaScript":  ("f1e05a", "javascript",  "black"),
+    "TypeScript":  ("3178C6", "typescript",   "white"),
+    "Python":      ("3572A5", "python",        "white"),
+    "Go":          ("00ADD8", "go",            "white"),
+    "Rust":        ("dea584", "rust",          "white"),
+    "Shell":       ("89e051", "gnu-bash",      "black"),
+    "HTML":        ("e34c26", "html5",         "white"),
+    "CSS":         ("563d7c", "css3",          "white"),
+    "Java":        ("b07219", "openjdk",       "white"),
+    "C++":         ("f34b7d", "cplusplus",     "white"),
+    "C":           ("555555", "c",             "white"),
+    "Ruby":        ("701516", "ruby",          "white"),
+    "Dockerfile":  ("384d54", "docker",        "white"),
+}
 
 
-def escape_md_pipes(text: str) -> str:
-    """Escape pipe characters so they don't break Markdown table cells."""
-    return text.replace("|", "\\|")
+def _lang_badge_img(lang: str | None) -> str:
+    """Return an <img> tag for a shields.io language badge, or a plain text fallback."""
+    if not lang:
+        return "—"
+    conf = _LANG_CONFIG.get(lang)
+    label = lang.replace("-", "--").replace(" ", "_")
+    if conf:
+        color, logo, logo_color = conf
+        url = (
+            f"https://img.shields.io/badge/{label}-{color}"
+            f"?style=flat-square&logo={logo}&logoColor={logo_color}"
+        )
+    else:
+        url = f"https://img.shields.io/badge/{label}-lightgrey?style=flat-square"
+    return f'<img src="{url}" alt="{lang}"/>'
+
+
+def _updated_badge_img(date_str: str) -> str:
+    """Return a shields.io 'updated' badge <img> tag."""
+    label = date_str.replace("-", "--")
+    url = f"https://img.shields.io/badge/updated-{label}-lightgrey?style=flat-square"
+    return f'<img src="{url}" alt="updated {date_str}"/>'
+
+
+def _html_escape(text: str) -> str:
+    """Minimal HTML escaping for text placed inside HTML elements."""
+    return (
+        text.replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+            .replace('"', "&quot;")
+    )
 
 
 def render_recent_table(repos: list[dict]) -> str:
+    """Render recent repos as a 2-column card grid using HTML."""
     if not repos:
         return "_No public repositories found._\n"
-    lines = [
-        "| Project | Description | Stack | Updated |",
-        "|---------|-------------|-------|---------|",
-    ]
+
+    cells: list[str] = []
     for repo in repos:
         full_name = repo.get("full_name", repo.get("name", ""))
         url = repo.get("html_url", f"https://github.com/{full_name}")
-        desc = escape_md_pipes(repo.get("description") or "")
-        lang = language_badge(repo.get("language"))
+        desc = _html_escape(repo.get("description") or "")
+        lang = repo.get("language") or None
         updated_raw = repo.get("updated_at", "")
         try:
             updated = datetime.fromisoformat(updated_raw.replace("Z", "+00:00")).strftime("%Y-%m-%d")
         except (ValueError, AttributeError):
             updated = updated_raw[:10] if updated_raw else "—"
-        lines.append(f"| [{full_name}]({url}) | {desc} | {lang} | {updated} |")
-    return "\n".join(lines) + "\n"
+
+        cells.append(
+            f'<td width="50%" valign="top">\n'
+            f'  <b><a href="{url}">{_html_escape(full_name)}</a></b><br/>\n'
+            f'  <sub>{desc}</sub><br/><br/>\n'
+            f'  {_lang_badge_img(lang)}&nbsp;{_updated_badge_img(updated)}\n'
+            f'</td>'
+        )
+
+    # Pair cells into rows; pad last row if needed
+    rows: list[str] = []
+    for i in range(0, len(cells), 2):
+        pair = cells[i:i + 2]
+        if len(pair) == 1:
+            pair.append('<td width="50%"></td>')
+        rows.append("<tr>\n" + "\n".join(pair) + "\n</tr>")
+
+    return '<table width="100%">\n' + "\n".join(rows) + "\n</table>\n"
 
 
 # ---------------------------------------------------------------------------
