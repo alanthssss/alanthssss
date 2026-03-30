@@ -26,16 +26,31 @@
 
 ---
 
-## 🚀 Recent Projects
+## 📌 Pinned Projects
 
+<!-- PINNED-REPOS:START -->
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [zktool](https://github.com/alanthssss/zktool) | CLI tool for exporting, importing & updating ZooKeeper data | Go |
-| [ai-arcade-2048](https://github.com/alanthssss/ai-arcade-2048) | AI agents (DQN & others) learning to play 2048 | Python · Reinforcement Learning |
-| [pw2048](https://github.com/alanthssss/pw2048) | Automate 2048 with Playwright; benchmark algorithms with data visualizations | Python · Playwright |
-| [2048bot](https://github.com/alanthssss/2048bot) | Browser-based 2048 bot | JavaScript |
-| [pong](https://github.com/alanthssss/pong) | Classic Pong game | JavaScript |
-| [snail](https://github.com/alanthssss/snail) | Full-stack dashboard (Next.js) for managing & monitoring Java service lifecycle | TypeScript · Next.js |
+| [zktool](https://github.com/alanthssss/zktool) | export\import\update zookeeper data tool built by golang | Go |
+| [pw2048](https://github.com/alanthssss/pw2048) | Automate the 2048 game using Playwright and collect fancy data visualizations of each algorithm's performance. | Python |
+| [ai-arcade-2048](https://github.com/alanthssss/ai-arcade-2048) | AI agents (DQN & others) learning to play 2048 | Python |
+| [snail](https://github.com/alanthssss/snail) | Full-stack dashboard (Next.js) for managing & monitoring Java service lifecycle | TypeScript |
+<!-- PINNED-REPOS:END -->
+
+---
+
+## 🚀 Recent Projects
+
+<!-- RECENT-PROJECTS:START -->
+| Project | Description | Stack | Updated |
+|---------|-------------|-------|---------|
+| [zktool](https://github.com/alanthssss/zktool) | export\import\update zookeeper data tool built by golang | Go | 2026-03-17 |
+| [pw2048](https://github.com/alanthssss/pw2048) | Automate the 2048 game using Playwright and collect fancy data visualizations of each algorithm's performance. | Python | 2026-03-10 |
+| [ai-arcade-2048](https://github.com/alanthssss/ai-arcade-2048) | AI agents (DQN & others) learning to play 2048 | Python | 2026-03-08 |
+| [2048bot](https://github.com/alanthssss/2048bot) | Browser-based 2048 bot | JavaScript | 2025-12-12 |
+| [pong](https://github.com/alanthssss/pong) | Classic Pong game | JavaScript | 2025-07-11 |
+| [snail](https://github.com/alanthssss/snail) | Full-stack dashboard (Next.js) for managing & monitoring Java service lifecycle | TypeScript | 2024-10-23 |
+<!-- RECENT-PROJECTS:END -->
 
 ---
 
