@@ -2,11 +2,9 @@
 """
 update_readme.py
 
-Fetches pinned repositories and recent public repositories for the GitHub user
-'alanthssss', then updates the README.md sections delimited by HTML comment
-markers:
+Fetches recent public repositories for the GitHub user 'alanthssss', then
+updates the README.md section delimited by HTML comment markers:
 
-  <!-- PINNED-REPOS:START --> ... <!-- PINNED-REPOS:END -->
   <!-- RECENT-PROJECTS:START --> ... <!-- RECENT-PROJECTS:END -->
 
 Required environment variable:
@@ -30,7 +28,6 @@ import requests
 
 GITHUB_USERNAME = "alanthssss"
 README_PATH = os.path.join(os.path.dirname(__file__), "..", "README.md")
-GRAPHQL_URL = "https://api.github.com/graphql"
 REST_URL = "https://api.github.com"
 MAX_RECENT = 6  # number of recent repos to list
 
@@ -47,20 +44,6 @@ def get_token() -> str:
     return token
 
 
-def graphql_query(token: str, query: str) -> dict:
-    headers = {
-        "Authorization": f"Bearer {token}",
-        "Content-Type": "application/json",
-    }
-    response = requests.post(GRAPHQL_URL, json={"query": query}, headers=headers, timeout=15)
-    response.raise_for_status()
-    data = response.json()
-    if "errors" in data:
-        print(f"GraphQL errors: {data['errors']}", file=sys.stderr)
-        sys.exit(1)
-    return data
-
-
 def rest_get(token: str, path: str, params: dict | None = None) -> list | dict:
     headers = {
         "Authorization": f"Bearer {token}",
@@ -75,31 +58,6 @@ def rest_get(token: str, path: str, params: dict | None = None) -> list | dict:
 # ---------------------------------------------------------------------------
 # Data fetching
 # ---------------------------------------------------------------------------
-
-PINNED_QUERY = """
-{
-  user(login: "%s") {
-    pinnedItems(first: 6, types: REPOSITORY) {
-      nodes {
-        ... on Repository {
-          name
-          nameWithOwner
-          description
-          url
-          primaryLanguage { name }
-        }
-      }
-    }
-  }
-}
-""" % GITHUB_USERNAME
-
-
-def fetch_pinned_repos(token: str) -> list[dict]:
-    data = graphql_query(token, PINNED_QUERY)
-    nodes = data.get("data", {}).get("user", {}).get("pinnedItems", {}).get("nodes", [])
-    return [n for n in nodes if n]  # filter out nulls
-
 
 def fetch_recent_repos(token: str) -> list[dict]:
     repos = rest_get(
@@ -122,24 +80,6 @@ def language_badge(lang: str | None) -> str:
 def escape_md_pipes(text: str) -> str:
     """Escape pipe characters so they don't break Markdown table cells."""
     return text.replace("|", "\\|")
-
-
-def render_pinned_table(repos: list[dict]) -> str:
-    if not repos:
-        return "_No pinned repositories found._\n"
-    lines = [
-        "| Project | Description | Stack |",
-        "|---------|-------------|-------|",
-    ]
-    for repo in repos:
-        name_with_owner = repo.get("nameWithOwner", "")
-        url = repo.get("url") or f"https://github.com/{name_with_owner}"
-        desc = escape_md_pipes(repo.get("description") or "")
-        lang = language_badge(
-            (repo.get("primaryLanguage") or {}).get("name")
-        )
-        lines.append(f"| [{name_with_owner}]({url}) | {desc} | {lang} |")
-    return "\n".join(lines) + "\n"
 
 
 def render_recent_table(repos: list[dict]) -> str:
@@ -179,21 +119,14 @@ def replace_section(content: str, start_marker: str, end_marker: str, new_body: 
     return result
 
 
-def update_readme(pinned: list[dict], recent: list[dict]) -> bool:
+def update_readme(recent: list[dict]) -> bool:
     """Return True if the file was changed."""
     readme_path = os.path.abspath(README_PATH)
     with open(readme_path, encoding="utf-8") as f:
         original = f.read()
 
-    content = original
     content = replace_section(
-        content,
-        "<!-- PINNED-REPOS:START -->",
-        "<!-- PINNED-REPOS:END -->",
-        render_pinned_table(pinned),
-    )
-    content = replace_section(
-        content,
+        original,
         "<!-- RECENT-PROJECTS:START -->",
         "<!-- RECENT-PROJECTS:END -->",
         render_recent_table(recent),
@@ -215,15 +148,11 @@ def update_readme(pinned: list[dict], recent: list[dict]) -> bool:
 
 def main() -> None:
     token = get_token()
-    print(f"Fetching pinned repos for @{GITHUB_USERNAME}...")
-    pinned = fetch_pinned_repos(token)
-    print(f"  Found {len(pinned)} pinned repo(s).")
-
     print(f"Fetching {MAX_RECENT} most-recently-updated repos for @{GITHUB_USERNAME}...")
     recent = fetch_recent_repos(token)
     print(f"  Found {len(recent)} repo(s).")
 
-    update_readme(pinned, recent)
+    update_readme(recent)
 
 
 if __name__ == "__main__":
