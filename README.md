@@ -24,38 +24,38 @@
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
+  <b><a href="https://github.com/alanthssss/bubbletea">alanthssss/bubbletea</a></b><br/>
+  <sub>A powerful little TUI framework 🏗</sub><br/><br/>
+  —&nbsp;<img src="https://img.shields.io/badge/updated-2026--04--02-lightgrey?style=flat-square" alt="updated 2026-04-02"/>
+</td>
+<td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/crush">alanthssss/crush</a></b><br/>
   <sub>The glamourous AI coding agent for your favourite terminal 💘</sub><br/><br/>
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--04--01-lightgrey?style=flat-square" alt="updated 2026-04-01"/>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
   <b><a href="https://github.com/keyscome/pulse">keyscome/pulse</a></b><br/>
   <sub>A lightweight, cross-platform CLI tool for monitoring network service connectivity</sub><br/><br/>
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--03--31-lightgrey?style=flat-square" alt="updated 2026-03-31"/>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
   <b><a href="https://github.com/keyscome/petal">keyscome/petal</a></b><br/>
   <sub>setup-friendly ansible-like lightweight distributed infra ops</sub><br/><br/>
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--03--31-lightgrey?style=flat-square" alt="updated 2026-03-31"/>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/pw2048">alanthssss/pw2048</a></b><br/>
   <sub>Automate the 2048 game using Playwright and collect fancy data visualizations of each algorithm's performance.</sub><br/><br/>
   <img src="https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white" alt="Python"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--03--30-lightgrey?style=flat-square" alt="updated 2026-03-30"/>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/zktool">alanthssss/zktool</a></b><br/>
   <sub>export\import\update zookeeper data tool built by golang </sub><br/><br/>
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--03--30-lightgrey?style=flat-square" alt="updated 2026-03-30"/>
-</td>
-<td width="50%" valign="top">
-  <b><a href="https://github.com/alanthssss/2048bot">alanthssss/2048bot</a></b><br/>
-  <sub>A Playwright-powered bot that automatically plays the 2048 game using a greedy heuristic strategy.</sub><br/><br/>
-  <img src="https://img.shields.io/badge/JavaScript-f1e05a?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--03--30-lightgrey?style=flat-square" alt="updated 2026-03-30"/>
 </td>
 </tr>
 </table>
