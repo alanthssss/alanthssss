@@ -24,14 +24,14 @@
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
+  <b><a href="https://github.com/keyscome/seed">keyscome/seed</a></b><br/>
+  <sub>A Golang CLI for safe export, import, and bulk update of Zookeeper configuration data across environments</sub><br/><br/>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--04--07-lightgrey?style=flat-square" alt="updated 2026-04-07"/>
+</td>
+<td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/pw2048">alanthssss/pw2048</a></b><br/>
   <sub>An automation-first 2048 benchmark and experimentation platform for comparing search and reinforcement learning algorithms with reproducible evaluation, reporting, and developer-friendly workflows.</sub><br/><br/>
   <img src="https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white" alt="Python"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--04--07-lightgrey?style=flat-square" alt="updated 2026-04-07"/>
-</td>
-<td width="50%" valign="top">
-  <b><a href="https://github.com/alanthssss/zktool">alanthssss/zktool</a></b><br/>
-  <sub>A Golang CLI for safe export, import, and bulk update of Zookeeper configuration data across environments</sub><br/><br/>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--04--07-lightgrey?style=flat-square" alt="updated 2026-04-07"/>
 </td>
 </tr>
 <tr>
