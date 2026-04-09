@@ -26,7 +26,7 @@
 <td width="50%" valign="top">
   <b><a href="https://github.com/keyscome/seed">keyscome/seed</a></b><br/>
   <sub>A Golang CLI for safe export, import, and bulk update of configuration data across environments.</sub><br/><br/>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--04--07-lightgrey?style=flat-square" alt="updated 2026-04-07"/>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--04--08-lightgrey?style=flat-square" alt="updated 2026-04-08"/>
 </td>
 <td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/pw2048">alanthssss/pw2048</a></b><br/>
