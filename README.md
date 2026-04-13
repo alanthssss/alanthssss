@@ -26,7 +26,7 @@
 <td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/mcata">alanthssss/mcata</a></b><br/>
   <sub>Merge Catalyst, a 2048-based roguelike puzzle game with a custom system design.</sub><br/><br/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--04--11-lightgrey?style=flat-square" alt="updated 2026-04-11"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--04--12-lightgrey?style=flat-square" alt="updated 2026-04-12"/>
 </td>
 <td width="50%" valign="top">
   <b><a href="https://github.com/keyscome/seed">keyscome/seed</a></b><br/>
