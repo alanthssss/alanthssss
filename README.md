@@ -80,7 +80,7 @@
 ![image](https://github.com/user-attachments/assets/b972e7fb-f75a-4c74-8e5a-e11dbb7a3517)
 
 🏍️  Reader of *Zen and the Art of Motorcycle Maintenance*  
-💻  DevOps engineer | AI/ML explorer | Builder of tools, bots & elegant systems  
-🤝  Open to collaboration — feel free to @me for DevOps challenges, tool co-creation, or open-source contributions  
+💻  DevOps engineer | AI/ML explorer | Builder of tools, bots, indie games & elegant systems  
+🤝  Open to collaboration — feel free to @me for DevOps challenges, tool co-creation, games or open-source contributions  
 🐶  Best friend of DouDou, my loyal Schnauzer  
 🛰️  Wechat: `alanthssss`
