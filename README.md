@@ -25,8 +25,8 @@
 <tr>
 <td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/mcata">alanthssss/mcata</a></b><br/>
-  <sub>A themeable merge roguelike puzzle game with Catalysts, Anomaly phases, and a full AI benchmark framework.</sub><br/><br/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--04--16-lightgrey?style=flat-square" alt="updated 2026-04-16"/>
+  <sub>A themeable merge roguelike puzzle game with Boosts, Hazard stages, and a full AI benchmark framework. Built with React, Vite, and TypeScript.</sub><br/><br/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--04--19-lightgrey?style=flat-square" alt="updated 2026-04-19"/>
 </td>
 <td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/ml-platform-starter">alanthssss/ml-platform-starter</a></b><br/>
