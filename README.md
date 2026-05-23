@@ -25,8 +25,8 @@
 <tr>
 <td width="50%" valign="top">
   <b><a href="https://github.com/keyscome/blossom-grid">keyscome/blossom-grid</a></b><br/>
-  <sub></sub><br/><br/>
-  <img src="https://img.shields.io/badge/GDScript-lightgrey?style=flat-square" alt="GDScript"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--05--20-lightgrey?style=flat-square" alt="updated 2026-05-20"/>
+  <sub>Core Feel Prototype</sub><br/><br/>
+  <img src="https://img.shields.io/badge/GDScript-lightgrey?style=flat-square" alt="GDScript"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--05--22-lightgrey?style=flat-square" alt="updated 2026-05-22"/>
 </td>
 <td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/mcata">alanthssss/mcata</a></b><br/>
