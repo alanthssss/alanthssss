@@ -26,7 +26,7 @@
 <td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/pw2048">alanthssss/pw2048</a></b><br/>
   <sub>An automation-first 2048 benchmark and experimentation platform for comparing search and reinforcement learning algorithms with reproducible evaluation, reporting, and developer-friendly workflows.</sub><br/><br/>
-  <img src="https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white" alt="Python"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--07--21-lightgrey?style=flat-square" alt="updated 2026-07-21"/>
+  <img src="https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white" alt="Python"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--07--22-lightgrey?style=flat-square" alt="updated 2026-07-22"/>
 </td>
 <td width="50%" valign="top">
   <b><a href="https://github.com/keyscome/blossom-grid">keyscome/blossom-grid</a></b><br/>
