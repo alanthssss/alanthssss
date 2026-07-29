@@ -26,7 +26,7 @@
 <td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/sweetgold">alanthssss/sweetgold</a></b><br/>
   <sub></sub><br/><br/>
-  <img src="https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white" alt="Python"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--07--24-lightgrey?style=flat-square" alt="updated 2026-07-24"/>
+  <img src="https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white" alt="Python"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--07--28-lightgrey?style=flat-square" alt="updated 2026-07-28"/>
 </td>
 <td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/pw2048">alanthssss/pw2048</a></b><br/>
