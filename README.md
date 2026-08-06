@@ -26,7 +26,7 @@
 <td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/sweetgold">alanthssss/sweetgold</a></b><br/>
   <sub>Reproducible multi-agent AI lab with matched-seed arenas, honest robustness audits, CTDE and PPO.</sub><br/><br/>
-  <img src="https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white" alt="Python"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--08--04-lightgrey?style=flat-square" alt="updated 2026-08-04"/>
+  <img src="https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white" alt="Python"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--08--05-lightgrey?style=flat-square" alt="updated 2026-08-05"/>
 </td>
 <td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/collaboration">alanthssss/collaboration</a></b><br/>
