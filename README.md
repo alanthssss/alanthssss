@@ -24,9 +24,21 @@
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
+  <b><a href="https://github.com/keyscome/blossom-router">keyscome/blossom-router</a></b><br/>
+  <sub>Route AI prompts across local and cloud models with one lightweight, configurable CLI.</sub><br/><br/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--08--10-lightgrey?style=flat-square" alt="updated 2026-08-10"/>
+</td>
+<td width="50%" valign="top">
+  <b><a href="https://github.com/alanthssss/alanthssss.github.io">alanthssss/alanthssss.github.io</a></b><br/>
+  <sub>Share Site</sub><br/><br/>
+  <img src="https://img.shields.io/badge/HTML-e34c26?style=flat-square&logo=html5&logoColor=white" alt="HTML"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--08--10-lightgrey?style=flat-square" alt="updated 2026-08-10"/>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/sweetgold">alanthssss/sweetgold</a></b><br/>
   <sub>Reproducible multi-agent AI lab with matched-seed arenas, honest robustness audits, CTDE and PPO.</sub><br/><br/>
-  <img src="https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white" alt="Python"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--08--05-lightgrey?style=flat-square" alt="updated 2026-08-05"/>
+  <img src="https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white" alt="Python"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--08--10-lightgrey?style=flat-square" alt="updated 2026-08-10"/>
 </td>
 <td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/collaboration">alanthssss/collaboration</a></b><br/>
@@ -44,18 +56,6 @@
   <b><a href="https://github.com/keyscome/blossom-grid">keyscome/blossom-grid</a></b><br/>
   <sub>Core Feel Prototype</sub><br/><br/>
   <img src="https://img.shields.io/badge/GDScript-lightgrey?style=flat-square" alt="GDScript"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--05--22-lightgrey?style=flat-square" alt="updated 2026-05-22"/>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-  <b><a href="https://github.com/alanthssss/mcata">alanthssss/mcata</a></b><br/>
-  <sub>A themeable merge roguelike puzzle game with Boosts, Hazard stages, and a full AI benchmark framework. Built with React, Vite, and TypeScript.</sub><br/><br/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--04--28-lightgrey?style=flat-square" alt="updated 2026-04-28"/>
-</td>
-<td width="50%" valign="top">
-  <b><a href="https://github.com/alanthssss/ml-platform-starter">alanthssss/ml-platform-starter</a></b><br/>
-  <sub></sub><br/><br/>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--04--20-lightgrey?style=flat-square" alt="updated 2026-04-20"/>
 </td>
 </tr>
 </table>
