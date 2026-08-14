@@ -26,7 +26,7 @@
 <td width="50%" valign="top">
   <b><a href="https://github.com/keyscome/blossom-lingo">keyscome/blossom-lingo</a></b><br/>
   <sub>Local-first browser extension for translating and archiving authorized course content with Ollama</sub><br/><br/>
-  <img src="https://img.shields.io/badge/JavaScript-f1e05a?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--08--12-lightgrey?style=flat-square" alt="updated 2026-08-12"/>
+  <img src="https://img.shields.io/badge/JavaScript-f1e05a?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--08--13-lightgrey?style=flat-square" alt="updated 2026-08-13"/>
 </td>
 <td width="50%" valign="top">
   <b><a href="https://github.com/keyscome/blossom-router">keyscome/blossom-router</a></b><br/>
