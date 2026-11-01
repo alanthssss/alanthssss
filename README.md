@@ -24,38 +24,38 @@
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
+  <b><a href="https://github.com/alanthssss/nameless-becoming">alanthssss/nameless-becoming</a></b><br/>
+  <sub>归巢之前·Hivebound Seasons — 蜜蜂四季搜打撤肉鸽（Godot 4.6）| Lightweight roguelike prototype of a bee surviving the four seasons</sub><br/><br/>
+  <img src="https://img.shields.io/badge/GDScript-lightgrey?style=flat-square" alt="GDScript"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--11--01-lightgrey?style=flat-square" alt="updated 2026-11-01"/>
+</td>
+<td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/mealie-agent-toolkit">alanthssss/mealie-agent-toolkit</a></b><br/>
   <sub>Quality gates for agents that create and audit structured Mealie recipes, filters, plans, and shopping data.</sub><br/><br/>
   <img src="https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white" alt="Python"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--09--08-lightgrey?style=flat-square" alt="updated 2026-09-08"/>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
   <b><a href="https://github.com/keyscome/blossom-lingo">keyscome/blossom-lingo</a></b><br/>
   <sub>Local-first browser extension for translating and archiving authorized course content with Ollama</sub><br/><br/>
   <img src="https://img.shields.io/badge/JavaScript-f1e05a?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--08--13-lightgrey?style=flat-square" alt="updated 2026-08-13"/>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
   <b><a href="https://github.com/keyscome/blossom-router">keyscome/blossom-router</a></b><br/>
   <sub>Route AI prompts across local and cloud models with one lightweight, configurable CLI.</sub><br/><br/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--08--10-lightgrey?style=flat-square" alt="updated 2026-08-10"/>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/alanthssss.github.io">alanthssss/alanthssss.github.io</a></b><br/>
   <sub>Share Site</sub><br/><br/>
   <img src="https://img.shields.io/badge/HTML-e34c26?style=flat-square&logo=html5&logoColor=white" alt="HTML"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--08--10-lightgrey?style=flat-square" alt="updated 2026-08-10"/>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/sweetgold">alanthssss/sweetgold</a></b><br/>
   <sub>Reproducible multi-agent AI lab with matched-seed arenas, honest robustness audits, CTDE and PPO.</sub><br/><br/>
   <img src="https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white" alt="Python"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--08--10-lightgrey?style=flat-square" alt="updated 2026-08-10"/>
-</td>
-<td width="50%" valign="top">
-  <b><a href="https://github.com/alanthssss/collaboration">alanthssss/collaboration</a></b><br/>
-  <sub>An open-source bilingual playbook and copy-ready templates for turning discussions into decisions, owners, and action.</sub><br/><br/>
-  —&nbsp;<img src="https://img.shields.io/badge/updated-2026--08--03-lightgrey?style=flat-square" alt="updated 2026-08-03"/>
 </td>
 </tr>
 </table>
