@@ -26,7 +26,7 @@
 <td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/nameless-becoming">alanthssss/nameless-becoming</a></b><br/>
   <sub>归巢之前·Hivebound Seasons — 蜜蜂四季搜打撤肉鸽（Godot 4.6）| Lightweight roguelike prototype of a bee surviving the four seasons</sub><br/><br/>
-  <img src="https://img.shields.io/badge/GDScript-lightgrey?style=flat-square" alt="GDScript"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--11--09-lightgrey?style=flat-square" alt="updated 2026-11-09"/>
+  <img src="https://img.shields.io/badge/GDScript-lightgrey?style=flat-square" alt="GDScript"/>&nbsp;<img src="https://img.shields.io/badge/updated-2026--11--11-lightgrey?style=flat-square" alt="updated 2026-11-11"/>
 </td>
 <td width="50%" valign="top">
   <b><a href="https://github.com/alanthssss/mealie-agent-toolkit">alanthssss/mealie-agent-toolkit</a></b><br/>
